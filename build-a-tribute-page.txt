@@ -1,0 +1,97 @@
+** start of undefined **
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Tribute Page" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 id="title">Plato</h1>
+        <h2 id="quote">A greek philosopher</h2>
+      <header>
+      <figure id="img-div">
+        <img id="image" src="https://www.greeka.com/photos/greece-history/famous-people/plato/hero/plato-1280.jpg" alt="plato">
+        <figcaption id="img-caption">A statue of Plato</figcaption>
+      </figure>
+      <div id="tribute-info">
+        <p id="plato-life">Plato (/ˈpleɪtoʊ/ PLAY-toe; Greek: Πλάτων Plátōn; 428/427 or 424/423 – 348/347 BC) was an ancient Greek philosopher born in Athens during the Classical period in Ancient Greece. In Athens, Plato founded the Academy, a philosophical school where he taught the philosophical doctrines that would later became known as Platonism. Plato (or Platon) was a pen name derived from his nickname - allegedly a reference to his broad shoulders - According to Alexander of Miletus quoted by Diogenes of Sinope his actual name was Aristocles, son of Ariston, of the deme Collytus (Collytus being a district of Athens).</p>
+
+        <p id="plato-life-2">Plato was an innovator of the written dialogue and dialectic forms in philosophy. He raised problems for what later became all the major areas of both theoretical philosophy and practical philosophy. His most famous contribution is the Theory of forms, where he presents a solution to the problem of universals. He is also the namesake of Platonic love and the Platonic solids.</p>
+
+        <p id="plato-life-3">His own most decisive philosophical influences are usually thought to have been, along with Socrates, the pre-Socratics Pythagoras, Heraclitus and Parmenides, although few of his predecessors' works remain extant and much of what we know about these figures today derives from Plato himself.</p>
+
+        <p id="plato-life-4">Along with his teacher, Socrates, and his student, Aristotle, Plato is a central figure in the history of philosophy.  Unlike the work of nearly all of his contemporaries, Plato's entire body of work is believed to have survived intact for over 2,400 years. Although their popularity has fluctuated, Plato's works have consistently been read and studied. Through Neoplatonism Plato also greatly influenced both Christian and Islamic philosophy (through e.g. Al-Farabi). In modern times, Alfred North Whitehead famously said: "the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato."</p>
+      </div>
+      <div id="extra-info"><p>For extra information on Plato's life and work visit the original Wiki <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Plato">here</a>.</p>
+      </div>
+
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  font-family:Arial,Helvetica;
+}
+body{
+  background-color: grey;
+}
+main{
+  text-align:center;
+}
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 100%;
+  max-height: 50%;
+  margin-bottom:0;
+  padding:20 0;
+}
+figure{
+  background-color:#7F7786;
+  border-radius:100px;
+  margin:20 20;
+}
+figcaption{
+  font-size:25;
+  font-style: italic;
+}
+div#tribute-info{
+  margin:20 20;
+  background-color: #7F7786;
+  padding:20;
+  border-radius:100px;
+}
+div#tribute-info p{
+  font-size:22;
+  padding:0 100;
+  margin:10 100;
+}
+h1{
+  font-size:50;
+  margin-bottom:0;
+  font-weight:700;
+}
+h2{
+  font-size:22;
+  margin-top:5;
+}
+div#extra-info p{
+  font-size:22;
+  margin:20 20;
+  background-color: #7F7786;
+  padding:20;
+  border-radius:100px;
+}
+
+** end of undefined **
+
